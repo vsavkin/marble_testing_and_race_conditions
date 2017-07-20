@@ -1,0 +1,9 @@
+<h1>Movie Showings</h1>
+
+Title <input #title>
+<button (click)="selectMovie(title.value)">Show Showings</button>
+
+<div *ngIf="movieTitle">
+  <h2>Showings for {{movieTitle}}</h2>
+  <div *ngFor="let s of showings">{{s}}</div>
+</div>

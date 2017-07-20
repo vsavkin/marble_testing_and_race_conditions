@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import {Backend, MovieShowingsComponent} from './movie-showings.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    MovieShowingsComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [Backend],
+  bootstrap: [MovieShowingsComponent]
 })
 export class AppModule { }

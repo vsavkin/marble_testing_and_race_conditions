@@ -8,7 +8,8 @@
     "types": [
       "jasmine",
       "node"
-    ]
+    ],
+    "skipLibCheck": true
   },
   "files": [
     "test.ts"
